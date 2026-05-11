@@ -1,0 +1,251 @@
+	@font-face {
+    font-family: 'Orbit';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/Orbit-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;}
+
+    @font-face {
+    font-family: 'SlowGothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/neurimboGothicRegular.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;}
+
+	@font-face {
+    font-family: 'Galmuri14';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2506-1@1.0/Galmuri14.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;}
+
+	@font-face {
+	    font-family: 'Presentation';
+	    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-4Regular.woff2') format('woff2');
+	    font-weight: 400;
+	    font-display: swap;}
+
+	@font-face {
+    font-family: 'GothicA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/GothicA1-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;}
+
+    @font-face {
+    font-family: 'GMarketSans';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: 500;
+    font-display: swap;}
+
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
+
+    @font-face {
+    font-family: 'KblJump';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-5@1.0/KBLJump_RTTF.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;}
+
+    @font-face {
+    font-family: '116Subakhwa';
+    src: url('https://gcore.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.0/116watermelon.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;}
+
+
+
+		header,body,footer,h1,h2,h3,p{margin: 0; padding: 0;word-break: keep-all; flex-wrap: nowrap;}
+		body{overflow-x: hidden; cursor: none;}
+
+		section{}
+		ul{list-style: none;}
+		ul li a{text-decoration: none;
+				display: block;
+				padding: 8px 12px;
+				font-size: 0.8rem}
+		ul li a:visited{color: inherit;}
+		ul li a:hover{transition: all 0.5s}
+		h1{font-size: 15rem; text-align: center ;padding: 200px; line-height: 14.2rem; }
+		h2{font-size: 5rem; text-align: center; font-family: 'Galmuri14';padding: 60px;}
+		h3{font-size: 4rem; font-family: 'neurimboGothicRegular'; padding: 30px 0px}
+		p{}
+
+
+		.btn-area{position: relative; display: block;}
+		.arrow{position: fixed; width: 80px; left: 80px; bottom: 80px; z-index: 99}
+		.tooltip {opacity: 0; position: fixed; left: 150px; bottom: 200px;pointer-events: none; width: 200px; z-index: 100}
+		
+
+		.cursor {
+		  width: 30px;
+		  height: 30px;
+		  background: red;
+		  border-radius: 50%;
+		  position: fixed;
+		  top: 0;
+		  left: 0;
+		  pointer-events: none;
+		  transform: translate(-50%, -50%);
+		  z-index: 9999;}
+
+
+		.flex{display: flex; justify-content: space-between;}
+		.nav{position: fixed; width: 100%; z-index: 100; position: fixed;}
+		.navp{padding: 10px 0px; backdrop-filter: blur(10px); outline: 0.5px solid rgba(190, 190, 190, 0.5);}
+		.contact a {text-decoration: none;}
+  		.wid{width: 1000px; margin: 0 auto;}
+  		.relative{position: relative;}
+  		.absolute{position: absolute;}
+
+  		.center{margin: auto}
+		.right{margin-right: auto}
+		.centert{text-align: center;}
+		.rightt{text-align: right;}
+		.bm{margin-bottom: 200px}
+		.tm{margin-top: 200px}
+		.tbm200{margin: 200px 0px}
+		.tbm{margin: 10px 0px}
+
+		
+		.w900{width: 900px}
+		.w1100{width: 1100px}
+		.t48{font-size: 3rem}
+		.tb100{padding: 100px 0px}
+		.tb200{padding: 200px 0px}
+		.tp200{padding-top: 200px}
+		.p50{padding: 50px}
+		.p80{padding: 80px}
+		.pb450{padding-bottom: 700px}
+		.fs56{font-size: 3.2rem}
+
+		.black{color: black;}
+		.white{color: white;}
+		.blackb{background: black;}
+		.whiteb{background: white; border: 1px solid black}
+		.blueb{background: #3B6FFF}
+		.blueb2{background: blue;}
+		.border{border: 0.8px solid black;}
+
+
+
+
+  		.circle1{width: 792px; height: 792px; background: #3B6FFF;border-radius: 50%; z-index: -1; top: 100px; left: -150px}
+  		.circle2{width: 792px; height: 792px; border-radius: 50%; z-index: 2; backdrop-filter: blur(5px); border: 0.7px solid #BFBFBF; box-shadow: 0 0 20px rgba(0,0,0,0.3); top: 100px; right: -150px}
+  		.jelly{padding: 80px 120px; line-height: 70px; font-size: 3rem; transform: rotate(20.65deg); right: -400px;}
+  		.real{padding: 100px 0px}
+
+  		.box
+  		.mw{padding: 60px 100px; backdrop-filter: blur(12px); border: 1px solid #BFBFBF; top: 260px; left: 50%; transform: translateX(-50%); position: absolute;}
+  		.mwdetail{opacity: 0; background: #3B6FFF; padding: 105px 44px; top: 260px; left: 50%; transform: translateX(-50%); position: absolute; line-height: 1.7; white-space: nowrap;}
+		.box:hover .mwdetail{opacity: 1}
+		.things1{z-index: -1; bottom: 300px; left: -200px; animation: scroll 10s linear infinite}
+		.things2{z-index: -1; bottom: 300px; left: 1460px; animation: scroll 10s linear infinite}
+
+		.marquee{overflow: hidden;}
+		.scroll-box::-webkit-scrollbar {display: none;}
+		.use{transform-origin: right top; stransform: rotate(-90deg);}
+
+
+		@keyframes scroll {0% {transform: translateX(0);} 100% {transform: translateX(-100%);}}
+
+
+
+
+		.orbit{font-family: 'orbit'}
+		.galmuri{font-family: 'Galmuri14'}
+		.nurimbo{font-family: 'SlowGothic'}
+		.present{font-family: 'Presentation'}
+		.gothic{font-family: 'GothicA1'}
+		.gmarket{font-family: 'GMarketSans'}
+		.serif{font-family: 'Noto Serif KR', serif;}
+		.kbl{font-family: 'KblJump'}
+		.subak{font-family: '116watermelon'}
+
+
+		
+
+		.gummy1{width: 200px; transform: rotate(-10deg); left: 420px; position: absolute;}
+		.gummy1:hover{}
+		.call{width: 500px}
+		.caution{position: absolute; font-family: 'Orbit'; color: white; font-size: 2.6rem; text-align: center; border: 1px solid black;}
+		.detail{position: absolute; font-family: 'Orbit'; color: black; font-size: 2;}
+
+
+
+		.box
+
+		.size{padding: 160px; background: black; top: 500px; left: -50px}
+		.sizedetail{opacity: 0; padding: 80px 120px 80px 160px; background: #00D5FF; top: 520px; left: -70px; transform: rotate(10deg); z-index: 11}
+		.box:hover .sizedetail{opacity: 1}
+
+		.type{padding: 100px 240px; background: #3B6FFF; top: 300px; left: 440px}
+		.typedetail{opacity: 0; padding: 120px; background: white; border: 0.8px solid black; top: 280px; left: 480px; transform: rotate(-7deg); z-index: 12}
+		.box:hover .typedetail{opacity: 1}
+
+		.distance{padding: 180px; background: white; top: 600px; left: 900px; color: black;}
+		.distancedetail{opacity: 0; padding: 80px 80px 280px 80px; background: #9CFF1B; top: 600px; left: 900px; transform: rotate(8deg); z-index: 12}
+		.box:hover .distancedetail{opacity: 1}
+
+		.count{padding: 120px; background: #3B6FFF; top: 1000px; left: 200px}
+		.countdetail{opacity: 0; padding: 80px 80px 200px 80px; background: white; border: 0.8px solid black; top: 1000px; left: 200px; transform: rotate(-8deg); z-index: 13}
+		.box:hover .countdetail{opacity: 1}
+
+		.continue{padding: 140px 180px; background: black; top: 1150px; left: 700px}
+		.continuedetail{opacity: 0; padding: 80px; background: #FFEE00; top: 1150px; left: 700px; transform: rotate(9deg);}
+		.box:hover .continuedetail{opacity: 1}
+
+ 
+
+
+
+		.scene{width: 100%; position: relative; flex: none; margin-top: 50px;}
+		.scrollpart{height: 6000px;}
+		.piece1{position: sticky; display: inline-block; z-index: 1; top: 100px; margin-left: 200px; padding: 15px 200px 80px 60px; color: white; font-family: 'Orbit'; font-size: 2.2rem; background: #003CFF}
+		.piece2{position: sticky; display: inline-block; z-index: 2; top: 170px; margin-left: 500px; padding: 50px 70px; color: white; font-family: 'Galmuri14'; font-size: 1.4rem; background: black;}
+		.piece3{position: sticky; display: inline-block; z-index: 3; top: 180px; margin-left: 210px;} 
+		.piece4{position: sticky; display: inline-block; z-index: 4; top: 470px; margin-left: 550px; border-radius: 50%; padding: 40px 30px; color: white; font-family: 'GothicA1'; font-size: 1rem; background: #FF49CC}
+		.piece5{position: sticky; display: inline-block; z-index: 2; top: 450px; margin-left: 230px; padding: 30px 100px 200px 20px; color: white; font-family: 'Orbit'; font-size: 2rem; background: #1FFF57;}
+		.piece6{position: sticky; display: inline-block; z-index: 6; top: 650px; margin-left: 310px; padding: 20px 100px; color: black; font-family: 'neurimboGothicRegular' ;font-size: 3.5rem; border: 1px solid black;}
+		.piece7{position: sticky; display: inline-block; z-index: 7; top: 610px; margin-left: 550px; padding: 10px 30px; color: black; font-family: 'Galmuri14'; font-size: 4rem; background: #3BF8FF;}
+		.piece8{position: sticky; display: inline-block; z-index: 8; top: 100px; margin-left: 200px; padding: 350px 136.2px; color: black; font-family: 'Galmuri14'; font-size: 4rem; background: white; border: 1px solid black;}
+		.piece9{position: absolute ;display: inline-block; left: 400px; padding: 60px; color: black; font-family: 'neurimboGothicRegular'; font-size: 2rem; background: yellow; border: 1px solid black;}
+
+
+		.gummy{position: absolute; width: 1200px; top: 200px; left: 400px; transform: rotate(21deg);}
+		.fireplug{position: absolute; width: 600px; top: 400px; left: -200px; transform: rotate(45deg);}
+		.cookie{position: absolute; width: 700px; top: 500px; left: 100px}
+		.random{position: absolute; width: 1100px; top: 1100px; left: -300px; transform: rotate(17deg);}
+		.ice{position: absolute; width: 400px; top: 800px; left: 350px; transform: rotate(15deg);}
+		.call1{position: absolute; width: 300px; top: 1180px; left: 750px; transform: rotate(221deg);}
+		.flower{position: absolute; width: 560px; top: 900px; left: 1100px; transform: rotate(-28deg);}
+		.cactus{position: absolute; width: 400px; top: 200px; left: 1250px; transform: rotate(-30deg);}
+		.peach{position: absolute; width: 120px; top: 1560px; left: 660px; transform: rotate(-12deg);}
+
+
+		.reviewphoto{width: 332px; margin: 0; display: block;}
+		.review{font-family: 'Orbit'; font-size: 0.85rem; color: white; padding: 36px 36px 120px 36px; width: 260px;}
+		.review-flow {display: flex; gap: 40px; animation: flow 30s linear infinite;}
+		.review-set {display: flex; gap: 40px;}
+
+		.overlay {position: absolute; inset: 0; display: flex; justify-content: center; align-items: center; backdrop-filter: blur(9px); -webkit-backdrop-filter: blur(9px); background: rgba(0,0,0,0.6); color: white; font-size: 2.2rem; font-family: 'GothicA1'; text-align: center; letter-spacing: -2.5px; z-index: 2; cursor: pointer;}
+		.overlay.hide {opacity: 0; pointer-events: none;}
+		@keyframes flow {from {transform: translateX(0);} to {transform: translateX(-100%);}}
+
+
+
+
+		.photo {transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1); transform-origin: center; will-change: transform;}
+		.tilt {transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1); will-change: transform;}
+		.back{font-family: 'orbit'; color: white; background: black; text-align: center; padding: 80px 80px 120px 80px}
+		.button{font-family: 'orbit'; color: white; background: #3B6FFF; margin: 18px; padding: 10px}
+
+
+		.spawn-text{cursor: pointer;}
+		.physics-image{position: fixed; width: 220px; pointer-events: none; z-index: 999; will-change: transform}
+		.hover-grow{display: inline-block; will-change: transform;}
+		.hover-invert{transition: filter 0.25s ease; cursor: pointer;}
+		.hover-invert:hover{filter: invert(1);}
+
+
+
+
+		.copyright{font-family: 'Presentation'; font-size: 0.7rem; color: #333; padding: 50px 0px 24px 0px; }
+		.MORPHY{font-family: 'Orbit'; font-size: 5.5rem; padding: 100px 0px 40px 0px}
+		.four{font-family: 'Presentation'; font-size: 0.9rem; padding: 10px 15px}
+		
